@@ -2,7 +2,6 @@ pkgs: pkgs.writeShellApplication {
   name = "qrcode";
   runtimeInputs = with pkgs; [ qrencode ];
   text = ''
-    printf "Welcome! We are going to make a qrcode.\n\n"
     printf "\n----- step 1 of 2 -----\n\n"
     printf "enter url: "
     read -r text
