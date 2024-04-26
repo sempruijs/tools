@@ -1,7 +1,7 @@
 pkgs: pkgs.writeShellApplication {
   name = "audio-from-yt";
-  runtimeInputs = with pkgs; [ yt-dlp ffmpeg_6 ];
+  runtimeInputs = with pkgs; [ ponysay ];
   text = ''
-    printf "hello"
+    ponysay "hello"
   '';
 }
