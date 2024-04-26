@@ -14,7 +14,7 @@
         let
         in {
           packages = {
-            # add build phases here
+            default = import ./default/default.nix pkgs;
             hello = import ./hello/hello.nix pkgs;
             audio-from-yt = import ./audio-from-yt/audio-from-yt.nix pkgs;
           };
