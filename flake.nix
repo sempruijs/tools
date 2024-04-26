@@ -15,12 +15,13 @@
         in {
           packages = {
             default = import ./default/default.nix pkgs;
-            hello = import ./hello/hello.nix pkgs;
             audio-from-yt = import ./audio-from-yt/audio-from-yt.nix pkgs;
+            hello = import ./hello/hello.nix pkgs;
+            qrcode = import ./qrcode/qrcode.nix pkgs;
           };
           devShells = {
             default = pkgs.mkShell {
-              buildInputs = with pkgs; [ yt-dlp ffmpeg_6 ];
+              buildInputs = with pkgs; [ yt-dlp ffmpeg_6 qrencode ];
             };
           };
         };
