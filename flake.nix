@@ -17,6 +17,7 @@
             default = import ./default/default.nix pkgs;
             audio-from-yt = import ./audio-from-yt/audio-from-yt.nix pkgs;
             hello = import ./hello/hello.nix pkgs;
+            to-chords = import ./to-chords/to-chords.nix pkgs;
             qrcode = import ./qrcode/qrcode.nix pkgs;
           };
           devShells = {
