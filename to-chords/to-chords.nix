@@ -2,6 +2,9 @@ pkgs: pkgs.writeShellApplication {
   name = "to-chords";
   runtimeInputs = with pkgs; [ pandoc texliveConTeXt ];
   text = ''
+    printf "\n-------- files --------\n\n"
+    ls
+    
     printf "\n----- step 1 of 2 -----\n\n"
     printf "enter the file name (.md): "
     read -r input_name
