@@ -1,5 +1,5 @@
 pkgs: pkgs.writeShellApplication {
-  name = "audio-from-yt";
+  name = "to-chords";
   runtimeInputs = with pkgs; [ pandoc texliveConTeXt ];
   text = ''
     printf "\n----- step 1 of 2 -----\n\n"
