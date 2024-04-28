@@ -19,6 +19,14 @@ nix run github:sempruijs/tools#audio-from-yt
 nix run github:sempruijs/tools#hello
 ```
 
+### to-chords
+
+Generate a pdf with large chords from markdown for people with a visual impairment.
+
+```shell
+nix run github:sempruijs/tools#to-chords
+```
+
 ## Forking
 
 Feel free to fork this repository and add your own tools.
