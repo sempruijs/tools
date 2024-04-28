@@ -1,5 +1,5 @@
 pkgs: pkgs.writeShellApplication {
-  name = "audio-from-yt";
+  name = "hello";
   runtimeInputs = with pkgs; [ ponysay ];
   text = ''
     ponysay "hello"
