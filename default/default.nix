@@ -8,6 +8,7 @@ pkgs: pkgs.writeShellApplication {
 
     printf "The following tools are available:\n"
     printf " - audio-from-yt\n"
+    printf " - to-chords\n"
     printf " - qrcode\n"
     printf "\n"
 
