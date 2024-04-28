@@ -13,7 +13,7 @@ pkgs: pkgs.writeShellApplication {
     printf "enter the output file name (.pdf): "
     read -r output_name
 
-    pandoc "$input_name" --pdf-engine context -V fontsize=50pt -o "$output_name"
+    pandoc "$input_name" --pdf-engine context -V fontsize=80pt -o "$output_name"
   '';
 }
 
