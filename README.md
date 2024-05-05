@@ -27,6 +27,15 @@ Generate a pdf with large chords from markdown for people with a visual impairme
 nix run github:sempruijs/tools#to-chords
 ```
 
+### update-deps-pr
+
+Update nix flake lock file and open a pull request on github.
+This is copied from [github:cor/update-deps-pr](https://github.com/cor/update-deps-pr).
+
+```shell
+nix run github:sempruijs/tools#update-deps-pr
+```
+
 ## Forking
 
 Feel free to fork this repository and add your own tools.
