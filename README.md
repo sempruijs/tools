@@ -36,6 +36,15 @@ This is copied from [github:cor/update-deps-pr](https://github.com/cor/update-de
 nix run github:sempruijs/tools#update-deps-pr
 ```
 
+### yes-or-no
+
+Simple yes-or-no cli for making scripts.
+A question string should be given:
+
+```shell
+nix run github:sempruijs/tools#yes-or-no -- "Does it work?"
+```
+
 ## Forking
 
 Feel free to fork this repository and add your own tools.
