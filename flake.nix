@@ -20,6 +20,7 @@
             to-chords = import ./to-chords/to-chords.nix pkgs;
             qrcode = import ./qrcode/qrcode.nix pkgs;
             update-deps-pr = import ./update-deps-pr/update-deps-pr.nix pkgs;
+            yes-or-no = import ./yes-or-no/yes-or-no.nix pkgs;
           };
           devShells = {
             default = pkgs.mkShell {
