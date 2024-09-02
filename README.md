@@ -45,6 +45,14 @@ A question string should be given:
 nix run github:sempruijs/tools#yes-or-no -- "Does it work?"
 ```
 
+### ocr-pdf
+
+If you want to make pdf accessible for screenreaders or you just want to select some text in a pdf, you can do so by running:
+
+```shell
+nix run github:sempruijs/ocr-pdf
+```
+
 ## Forking
 
 Feel free to fork this repository and add your own tools.

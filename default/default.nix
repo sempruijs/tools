@@ -10,6 +10,7 @@ pkgs: pkgs.writeShellApplication {
     printf " - audio-from-yt\n"
     printf " - to-chords\n"
     printf " - qrcode\n"
+    printf " - ocr-pdf\n"
     printf "\n"
 
     printf "enter the name of the tool: "

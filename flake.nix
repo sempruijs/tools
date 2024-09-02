@@ -21,10 +21,11 @@
             qrcode = import ./qrcode/qrcode.nix pkgs;
             update-deps-pr = import ./update-deps-pr/update-deps-pr.nix pkgs;
             yes-or-no = import ./yes-or-no/yes-or-no.nix pkgs;
+            ocr-pdf = import ./ocr-pdf/ocr-pdf.nix pkgs;
           };
           devShells = {
             default = pkgs.mkShell {
-              buildInputs = with pkgs; [ yt-dlp ffmpeg_6 qrencode ];
+              buildInputs = with pkgs; [ yt-dlp ffmpeg_6 qrencode python312Packages.ocrmypdf ];
             };
           };
         };

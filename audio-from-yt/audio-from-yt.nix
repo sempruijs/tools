@@ -1,3 +1,4 @@
+# pkgs: pkgs.writeShellApplication {
 pkgs: pkgs.writeShellApplication {
   name = "audio-from-yt";
   runtimeInputs = with pkgs; [ yt-dlp ffmpeg_6 ];
