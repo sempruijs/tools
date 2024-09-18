@@ -16,7 +16,7 @@ nix run github:sempruijs/tools#audio-from-yt
 ### qrcode
 
 ```shell
-nix run github:sempruijs/tools#hello
+nix run github:sempruijs/tools#qrcode
 ```
 
 ### to-chords
