@@ -15,8 +15,18 @@ nix run github:sempruijs/tools#audio-from-yt
 
 ### qrcode
 
+Generate a qrcode
+
 ```shell
 nix run github:sempruijs/tools#qrcode
+```
+
+### pdf-from-musescore
+
+Download a pdf from musescore.
+
+```shell
+nix run github:sempruijs/tools#pdf-from-musescore
 ```
 
 ### to-chords

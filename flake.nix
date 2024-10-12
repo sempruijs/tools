@@ -22,6 +22,7 @@
             update-deps-pr = import ./update-deps-pr/update-deps-pr.nix pkgs;
             yes-or-no = import ./yes-or-no/yes-or-no.nix pkgs;
             ocr-pdf = import ./ocr-pdf/ocr-pdf.nix pkgs;
+            pdf-from-musescore = import ./pdf-from-musescore/pdf-from-musescore.nix pkgs;
           };
           devShells = {
             default = pkgs.mkShell {

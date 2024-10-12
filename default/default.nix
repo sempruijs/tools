@@ -11,6 +11,7 @@ pkgs: pkgs.writeShellApplication {
     printf " - to-chords\n"
     printf " - qrcode\n"
     printf " - ocr-pdf\n"
+    printf " - pdf-from-musescore\n"
     printf "\n"
 
     printf "enter the name of the tool: "
